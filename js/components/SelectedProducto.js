@@ -20,7 +20,7 @@ export const SelectedProducto = () => {
             <h2>Producto</h2>
             <img src=${userData.producto.thumbnail} alt="foto de ${userData.producto.name}">
             <h3>${userData.producto.name}</h3>
-            <p>Del dueño: ${userData.producto.owner}</p>
+            <p>De Origen ${userData.producto.origin}</p>
             <button class="delete-button">Eliminar Reserva</button>
         </div>
     </div>

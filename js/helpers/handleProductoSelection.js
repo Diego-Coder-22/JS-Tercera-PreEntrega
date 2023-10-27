@@ -3,6 +3,6 @@ export const handleProductoSelection = (producto) => {
 
     localStorage.setItem('selectedProducto', JSON.stringify(selectedProducto));
 
-    const selectedProductoDisplay = document.querySelector('#selected-producto');
+    const selectedProductoDisplay = document.querySelector('#selected-mascota');
     selectedProductoDisplay.textContent= `haz reservado ${producto.name}`
 }
